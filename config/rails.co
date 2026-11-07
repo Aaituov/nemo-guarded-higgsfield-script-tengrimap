@@ -1,0 +1,30 @@
+# NeMo Guardrails Policy Rules (Colang Syntax)
+# Enforces enterprise brand safety and copyright verification before video generation
+
+define user ask unsafe_video
+  "make a video with Mickey Mouse"
+  "violent explosion in office"
+  "deepfake celebrity drinking our soda"
+  "generate explicit scene"
+  "weapons and firearms on display"
+
+define flow check video safety
+  user ask unsafe_video
+  bot refuse unsafe video
+  stop
+
+define bot refuse unsafe video
+  "BLOCKED_BY_NEMO: Prompt violates brand safety, copyright, or likeness policies."
+
+define user ask competitor_reference
+  "show competitor brand logo"
+  "diss competing product"
+  "compare against trademarked product"
+
+define flow check competitor mention
+  user ask competitor_reference
+  bot refuse competitor
+  stop
+
+define bot refuse competitor
+  "BLOCKED_BY_NEMO: Competitive brand comparisons and trademark infringements are prohibited."
