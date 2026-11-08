@@ -1,9 +1,9 @@
-# 🎬 NeMo Guarded Higgsfield Script (TengriMap)
-> **Enterprise Generative Video Pipeline: NVIDIA NeMo Guardrails + Google Gemini 1.5 Flash + Higgsfield AI + Google Apps Script**
+# 🎬 NeMo Guarded Higgsfield Script (Tengri Map)
+> **Enterprise Generative Video Pipeline: NVIDIA NeMo Guardrails + Google Gemini 3.8 Flash + Higgsfield AI + Google Apps Script**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![NVIDIA NeMo](https://img.shields.io/badge/NVIDIA-NeMo_Guardrails-76B900?logo=nvidia)](https://github.com/NVIDIA/NeMo-Guardrails)
-[![Google Gemini](https://img.shields.io/badge/Google-Gemini_1.5_Flash-4285F4?logo=google)](https://ai.google.dev/)
+[![Google Gemini](https://img.shields.io/badge/Google-Gemini_3.8_Flash-4285F4?logo=google)](https://ai.google.dev/)
 [![Higgsfield AI](https://img.shields.io/badge/Higgsfield-Video_API-black)](https://higgsfield.ai)
 
 ---
@@ -30,7 +30,7 @@ This reference architecture demonstrates how **NVIDIA NeMo Guardrails** acts as 
        │         └─ Evaluates trademark, safety, and brand policies
        │         └─ If Violated: Returns "REJECTED" (Execution aborts, $0 GPU cost)
        │
-       ├─► [2. Google Gemini 1.5 Flash]
+       ├─► [2. Google Gemini 3.8 Flash]
        │         └─ Translates concept into 4K cinematic camera & lighting directions
        │
        └─► [3. Higgsfield AI Video API]
