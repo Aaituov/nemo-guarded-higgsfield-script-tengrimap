@@ -7,6 +7,8 @@
 [![Higgsfield AI](https://img.shields.io/badge/Higgsfield-Video_API-black)](https://higgsfield.ai)
 
 ---
+<img width="2400" height="1792" alt="Banner" src="https://github.com/user-attachments/assets/61129708-1a1c-4c55-b942-2a9d71e1e7d0" />
+
 
 ## 📌 Executive Summary
 
