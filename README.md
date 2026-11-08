@@ -128,6 +128,8 @@ define bot refuse unsafe video
 ```
 
 ---
+## Youtube tutorial
+Will share a youtube tutorial on this repo at Devs.kz and TengriMap.com youtube channel in a few days.
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
