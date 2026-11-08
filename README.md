@@ -132,6 +132,8 @@ define bot refuse unsafe video
 ---
 ## Youtube tutorial
 Will share a youtube tutorial on this repo at Devs.kz and TengriMap.com youtube channel in a few days.
+<img width="2400" height="1792" alt="Apps script architecture" src="https://github.com/user-attachments/assets/a4fc5275-dd24-478f-8d3d-d7f1ccb10334" />
+
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
