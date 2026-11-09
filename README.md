@@ -10,6 +10,7 @@
 <img width="2400" height="1792" alt="Banner" src="https://github.com/user-attachments/assets/61129708-1a1c-4c55-b942-2a9d71e1e7d0" />
 
 
+
 ## 📌 Executive Summary
 
 Generative video diffusion models (like **Higgsfield AI**) require heavy GPU inference compute. In an automated content creation loop, passing unverified user prompts directly to video rendering models exposes organizations to two critical failure modes:
@@ -18,6 +19,7 @@ Generative video diffusion models (like **Higgsfield AI**) require heavy GPU inf
 
 This reference architecture demonstrates how **NVIDIA NeMo Guardrails** acts as an upstream programmatic firewall. Integrated into **Google Sheets via Apps Script**, marketing and ops teams can manage and dispatch video campaigns safely from a familiar spreadsheet interface.
 
+<img width="3272" height="665" alt="Screenshot 2026-11-09 141015" src="https://github.com/user-attachments/assets/fcfa5f9c-e142-4bd2-8d62-00d01bc8954a" />
 ---
 
 ## 🏗️ Architecture
@@ -65,6 +67,7 @@ nemo-guarded-higgsfield-script-tengrimap/
 ---
 
 ## 🚀 Quickstart Guide
+<img width="787" height="439" alt="Screenshot 2026-11-09 141306" src="https://github.com/user-attachments/assets/f2a396ee-93a9-4f03-ad78-3efb75203598" />
 
 ### 1. Prerequisites
 - Python 3.10+
